@@ -1,0 +1,201 @@
+/*Estilos generales*/
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+    background-image: url("imgs/deskWallpaperB&W.jpg");
+    font-family: 'Source Code Pro', monospace;
+    color: antiquewhite;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+hr {
+  width: 20%;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    text-align: center;
+    display: inline-block;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(70, 70, 70);
+    color: white;
+  }
+
+  #footer {
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #333 ;
+    color: antiquewhite;
+    text-align: center;
+  }
+
+  a:link {
+    color: antiquewhite;
+  }
+  
+  a:visited {
+    color: grey;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: blue;
+  }
+
+/*Pagina HOME*/
+
+.centrarVertical{
+    color: antiquewhite;
+    text-align: center;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3%;
+}
+
+#miFoto {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -5%;
+}
+
+.textoPresentacion1 {
+  font-size: 48px;
+}
+
+.textoPresentacion2 {
+  font-size: 32px;
+}
+
+#tituloPresentacion {
+  font-family: 'Source Code Pro', monospace;
+  color: antiquewhite;
+  font-size: 28px;
+}
+
+
+
+/* Pagina de Experiencias */
+
+#boxAños {
+  text-align: center;
+  background-color: rgba(27, 27, 27, 0.8);
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.botonExp {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 300px;
+}
+
+.centrarTexto {
+  text-align: center;
+}
+
+.textNone {
+  display: none;
+}
+
+.displayNone {
+  display: none;
+}
+
+
+/* Pagina de contacto */
+
+#boxContacto {
+  margin-top: 4%;
+}
+
+form {
+  background-color: rgba(27, 27, 27, 0.8);
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  color: white;
+  text-align: center;
+  opacity: 1.0;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="button"] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: gray;
+}
+
+.opacityFull {
+  opacity: 1;
+}

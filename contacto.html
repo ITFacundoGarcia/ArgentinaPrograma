@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="CSS/imgs/favicon.png">
+    <title>R. Roberts: Curriculum Vitae</title>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+
+<!-- Pendiente integrar con backend el submit de datos del usuario-->
+    <div id="boxContacto">
+    <form id="formContacto">
+        <div id="datosForm">
+        <label for="nombre">Nombre:</label><br />
+        <input type="text" id="nombre" name="nombre" /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" /><br />
+        <label for="mensaje">Mensaje:</label><br />
+        <textarea id="mensaje" name="mensaje"></textarea><br />
+        <input onclick="myFunction()" id="botonSubmit" type="button" value="Enviar mensaje" />
+        </div>
+    </form>
+    </div>
+
+    <footer id="footer">
+        <div>
+            <p>Facu García (2023) - <a href="mailto:ITfacundogarcia@gmail.com">ITFacundoGarcia@gmail.com</a></p>
+        </div>
+    </footer>
+    <script src="JS/contacto.js"></script>
+</body>
+</html>
